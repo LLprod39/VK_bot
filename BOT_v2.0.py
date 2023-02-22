@@ -24,7 +24,7 @@ from repost_vk_name import repost_vk_name
 
 openai_api_key = "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"
 openai.api_key = openai_api_key
-vk_token = ("vk1.a.mxEpwbhYSgGnpFgHcckzsynpF7KCCaYOzVSnVcbrfV_XohaDteWezoCS8hgGCZOPW_JMi1w2uoDdW25SYnGygtRXQeJfNDXLszRY1wLacY63CQ_h3Y2jdbriUp4a-AWd42jAw2IgxFH-y_sn36PLb5HyCYlOSVj8NcSg_uGBWqK7DB0q3h-KxCrCMc3K0dWNminmPhInw5d1igJAsB8lXA")
+vk_token = ("")
 vk_session = vk_api.VkApi(token=vk_token)
 vk = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
